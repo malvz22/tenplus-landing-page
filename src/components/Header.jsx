@@ -22,8 +22,8 @@ const Header = () => {
         </nav>
       </header>
       <div
-        className={`flex flex-col md:hidden w-full max-w-full bg-white h-screen text-end items-cend justify-center px-5 font-bold text-xl ${
-          openMenu ? "hidden" : "block"
+        className={`flex flex-col md:hidden w-full max-w-full bg-white h-screen text-end items-cend justify-center px-5 font-bold fixed text-xl ${
+          openMenu ? "block" : "hidden"
         }`}
       >
         <a href="#about-section" className="py-2" onClick={handleOpenMenu}>
