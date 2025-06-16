@@ -190,11 +190,7 @@ function App() {
             </div>
             <hr className="w-[70%] border-solid border-white/40 border-2 mx-auto" />
             <h2>Powerful Botanicals. Zero Sugar. Zero Stimulants.</h2>
-            <div>
-              <button className="px-6 py-2 bg-[#E1E43D] rounded-full w-auto font-medium text-lg text-black">
-                Buy Now
-              </button>
-            </div>
+            <Button>Buy Now</Button>
           </div>
         </section>
         <section className="flex flex-col text-start">

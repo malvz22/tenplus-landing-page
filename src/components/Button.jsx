@@ -1,9 +1,15 @@
 const Button = ({ children }) => {
   return (
     <div>
-      <button className="px-6 py-2 bg-[#E1E43D] rounded-full w-auto font-medium text-lg">
-        <p>{children}</p>
-      </button>
+      <a
+        href="https://mytenplus.com/product/tenplus-phyto-hydration/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="cursor-pointer px-6 py-2 bg-[#E1E43D] rounded-full w-auto font-medium text-lg text-black">
+          <p>{children}</p>
+        </button>
+      </a>
     </div>
   );
 };
