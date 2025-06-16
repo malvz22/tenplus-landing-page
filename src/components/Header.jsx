@@ -8,13 +8,15 @@ const Header = () => {
   };
   return (
     <div className="flex flex-col">
-      <header className="w-full max-w-full px-4 flex flex-row justify-between items-center bg-white mx-auto py-4 fixed top-0 left-0 z-50 shadow-md">
+      <header className="w-full max-w-full px-4 flex flex-row justify-between items-center bg-white mx-auto py-4 fixed top-0 left-0 z-[1000] shadow-md">
         <nav className="flex flex-row justify-between items-center w-full max-w-full">
-          <img src="/icons/Tenplus Wordmark-10.png" className="w-[117px]" />
+          <a href="/">
+            <img src="/icons/Tenplus Wordmark-10.png" className="w-[117px]" />
+          </a>
           <div className="hidden md:flex flex-row gap-6 font-regular text-black">
             <a href="#about-section">About</a>
             <a href="#product-section">Product</a>
-            <a href="ingredients-section">Ingredients & Benefits</a>
+            <a href="#testimonial-section">Testimonial</a>
           </div>
           <button className="flex md:hidden" onClick={handleOpenMenu}>
             <RxHamburgerMenu size={32} />
@@ -22,7 +24,7 @@ const Header = () => {
         </nav>
       </header>
       <div
-        className={`flex flex-col md:hidden w-full max-w-full bg-white h-screen text-end items-cend justify-center px-5 font-bold fixed text-xl ${
+        className={`flex flex-col md:hidden w-full max-w-full bg-white h-screen text-end items-cend justify-center px-5 font-bold fixed text-xl z-[100] ${
           openMenu ? "block" : "hidden"
         }`}
       >
@@ -33,11 +35,11 @@ const Header = () => {
           Product
         </a>
         <a
-          href="#ingredients-section"
+          href="#testimonial-section"
           className="py-2"
           onClick={handleOpenMenu}
         >
-          Ingredients & Benefits
+          Testimonial
         </a>
       </div>
     </div>

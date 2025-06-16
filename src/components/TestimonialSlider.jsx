@@ -48,13 +48,10 @@ const TestimonialSlider = () => {
   };
 
   return (
-    <div className="w-full max-w-full mx-auto py-8 relative">
+    <div className="w-full max-w-full mx-auto relative z-10">
       <Slider {...settings}>
         <div className="px-2">
-          <video
-            controls
-            className="rounded-lg overflow-hidden w-full md:w-[240px]"
-          >
+          <video controls className="rounded-lg w-full md:w-[240px]">
             <source src="videos/video1.mp4" type="video/mp4" />
           </video>
         </div>
@@ -63,7 +60,7 @@ const TestimonialSlider = () => {
             width={240}
             height={320}
             controls
-            className="rounded-lg overflow-hidden w-full md:w-[240px]"
+            className="rounded-lg w-full md:w-[240px]"
           >
             <source src="videos/video2.mp4" type="video/mp4" />
           </video>
@@ -73,7 +70,7 @@ const TestimonialSlider = () => {
             width={240}
             height={320}
             controls
-            className="rounded-lg overflow-hidden w-full md:w-[240px]"
+            className="rounded-lg w-full md:w-[240px]"
           >
             <source src="videos/video3.mp4" type="video/mp4" />
           </video>
@@ -83,7 +80,7 @@ const TestimonialSlider = () => {
             width={240}
             height={320}
             controls
-            className="rounded-lg overflow-hidden w-full md:w-[240px]"
+            className="rounded-lg w-full md:w-[240px]"
           >
             <source src="videos/video4.mp4" type="video/mp4" />
           </video>
@@ -93,7 +90,7 @@ const TestimonialSlider = () => {
             width={240}
             height={320}
             controls
-            className="rounded-lg overflow-hidden w-full md:w-[240px]"
+            className="rounded-lg w-full md:w-[240px]"
           >
             <source src="videos/video5.mp4" type="video/mp4" />
           </video>
@@ -103,7 +100,7 @@ const TestimonialSlider = () => {
             width={240}
             height={320}
             controls
-            className="rounded-lg overflow-hidden w-full md:w-[240px]"
+            className="rounded-lg w-full md:w-[240px]"
           >
             <source src="videos/video6.mp4" type="video/mp4" />
           </video>
