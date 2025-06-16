@@ -1,6 +1,7 @@
 import "./App.css";
 import Button from "./components/Button";
 import Header from "./components/Header";
+import TestimonialSlider from "./components/TestimonialSlider";
 
 function App() {
   return (
@@ -209,7 +210,7 @@ function App() {
               <p>More Than Just Electrolytes. Revive, Replenish, Repeat.</p>
             </div>
             <div className="flex flex-col">
-              <div className="flex flex-col md:flex-row items-start justify-between gap-6">
+              <div className="flex flex-col md:flex-row items-start gap-10">
                 <div className="w-full md:w-[320px] border-b-2 border-[#b24a60]">
                   <h3 className="mb-0.5">Phytonutrients</h3>
                 </div>
@@ -231,7 +232,7 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="flex flex-col md:flex-row items-start justify-between gap-4">
+              <div className="flex flex-col md:flex-row items-start gap-10">
                 <div className="w-full md:w-[320px] border-b-2 border-[#E1E43D]">
                   <h3 className="mb-0.5">Electrolytes+</h3>
                 </div>
@@ -256,7 +257,7 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col">
-              <div className="flex flex-col md:flex-row items-start justify-between gap-4">
+              <div className="flex flex-col md:flex-row items-start gap-10">
                 <div className="w-full md:w-[320px] border-b-2 border-[#d4721a]">
                   <h3 className="mb-0.5">Vitamins</h3>
                 </div>
@@ -325,6 +326,13 @@ function App() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+        <section className="flex flex-col w-full max-w-full">
+          <div className="container-custom">
+            <h3>Fuelled by Tenplus</h3>
+            <p className="">Hear from our happily hydrated community</p>
+            <TestimonialSlider />
           </div>
         </section>
       </main>
