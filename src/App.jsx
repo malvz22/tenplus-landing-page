@@ -1,6 +1,7 @@
 /* eslint-disable no-irregular-whitespace */
 import "./App.css";
 import Button from "./components/Button";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import TestimonialSlider from "./components/TestimonialSlider";
 
@@ -447,6 +448,7 @@ function App() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }
