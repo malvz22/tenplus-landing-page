@@ -124,73 +124,75 @@ function App() {
         </section>
         <section
           id="product-section"
-          className="bg-[#262626] w-full max-w-full py-6 text-white scroll-mt-12"
+          className="bg-[url(images/palm-leaf.jpg)] bg-center bg-cover bg-no-repeat w-full max-w-full text-white scroll-mt-12"
         >
-          <div className="container-custom flex flex-col text-center">
-            <div className="flex flex-col gap-3">
-              <h3>Phyto-hydration Drink Mix</h3>
-              <h4 className="">Available in 6 flavors</h4>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 justify-items-center lg:flex lg:flex-row lg:justify-between gap-8">
-              <div className="flex flex-col gap-2">
-                <img
-                  src="images/product-mockup/Vertical_Tropical-Citrus.png"
-                  className="w-[150px]"
-                />
-                <p className="text-2xl">
-                  Tropical
-                  <br />
-                  Citrus
-                </p>
+          <div className="w-full max-w-full h-auto bg-black/80">
+            <div className="container-custom flex flex-col text-center">
+              <div className="flex flex-col gap-3">
+                <h3>Phyto-hydration Drink Mix</h3>
+                <h4 className="">Available in 6 flavors</h4>
               </div>
-              <div className="flex flex-col gap-2">
-                <img
-                  src="images/product-mockup/Vertical_Pineapple.png"
-                  className="w-[150px]"
-                />
-                <p className="text-2xl">Pineapple</p>
-              </div>
-              <div className="flex flex-col gap-2">
-                <img
-                  src="images/product-mockup/Vertical_Mango.png"
-                  className="w-[150px]"
-                />
-                <p className="text-2xl">Mango</p>
-              </div>
+              <div className="grid grid-cols-2 md:grid-cols-3 justify-items-center lg:flex lg:flex-row lg:justify-between gap-8">
+                <div className="flex flex-col gap-2">
+                  <img
+                    src="images/product-mockup/Vertical_Tropical-Citrus.png"
+                    className="w-[150px]"
+                  />
+                  <p className="text-2xl">
+                    Tropical
+                    <br />
+                    Citrus
+                  </p>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <img
+                    src="images/product-mockup/Vertical_Pineapple.png"
+                    className="w-[150px]"
+                  />
+                  <p className="text-2xl">Pineapple</p>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <img
+                    src="images/product-mockup/Vertical_Mango.png"
+                    className="w-[150px]"
+                  />
+                  <p className="text-2xl">Mango</p>
+                </div>
 
-              <div className="flex flex-col gap-2">
-                <img
-                  src="images/product-mockup/Vertical_Sea-Salt-Lemonade.png"
-                  className="w-[150px]"
-                />
-                <p className="text-2xl">
-                  Sea Salt
-                  <br />
-                  Lemonade
-                </p>
+                <div className="flex flex-col gap-2">
+                  <img
+                    src="images/product-mockup/Vertical_Sea-Salt-Lemonade.png"
+                    className="w-[150px]"
+                  />
+                  <p className="text-2xl">
+                    Sea Salt
+                    <br />
+                    Lemonade
+                  </p>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <img
+                    src="images/product-mockup/Vertical_Orange.png"
+                    className="w-[150px]"
+                  />
+                  <p className="text-2xl">Orange</p>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <img
+                    src="images/product-mockup/Vertical_Mixed-Berry.png"
+                    className="w-[150px]"
+                  />
+                  <p className="text-2xl">
+                    Mixed
+                    <br />
+                    Berry
+                  </p>
+                </div>
               </div>
-              <div className="flex flex-col gap-2">
-                <img
-                  src="images/product-mockup/Vertical_Orange.png"
-                  className="w-[150px]"
-                />
-                <p className="text-2xl">Orange</p>
-              </div>
-              <div className="flex flex-col gap-2">
-                <img
-                  src="images/product-mockup/Vertical_Mixed-Berry.png"
-                  className="w-[150px]"
-                />
-                <p className="text-2xl">
-                  Mixed
-                  <br />
-                  Berry
-                </p>
-              </div>
+              <hr className="w-[70%] border-solid border-white/40 border-2 mx-auto rounded-full" />
+              <h2>Powerful Botanicals. Zero Sugar. Zero Stimulants.</h2>
+              <Button>Buy Now</Button>
             </div>
-            <hr className="w-[70%] border-solid border-white/40 border-2 mx-auto" />
-            <h2>Powerful Botanicals. Zero Sugar. Zero Stimulants.</h2>
-            <Button>Buy Now</Button>
           </div>
         </section>
         <section className="flex flex-col text-start">
