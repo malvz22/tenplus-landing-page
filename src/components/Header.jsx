@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { IoClose } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const Header = () => {
@@ -18,15 +19,18 @@ const Header = () => {
             <a href="#product-section">Product</a>
             <a href="#testimonial-section">Testimonial</a>
           </div>
-          <button className="flex md:hidden" onClick={handleOpenMenu}>
-            <RxHamburgerMenu size={32} />
+          <button
+            className="flex md:hidden text-[32px]"
+            onClick={handleOpenMenu}
+          >
+            {openMenu ? <IoClose /> : <RxHamburgerMenu />}
           </button>
         </nav>
       </header>
       <div
-        className={`flex flex-col md:hidden w-full max-w-full bg-white h-screen text-end items-cend justify-center px-5 font-bold fixed text-xl z-[100] ${
-          openMenu ? "block" : "hidden"
-        }`}
+        className={`flex flex-col md:hidden w-full max-w-full bg-white h-screen text-end items-cend justify-center px-5 font-bold fixed text-xl z-[100] transform ${
+          openMenu ? "translate-x-0" : "translate-x-full"
+        } transition-transform duration-300 ease-in-out`}
       >
         <a href="#about-section" className="py-2" onClick={handleOpenMenu}>
           About
