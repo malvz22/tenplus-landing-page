@@ -1,12 +1,50 @@
-# React + Vite
+# Tenplus Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive landing page built with **React**, **JavaScript**, and **Tailwind CSS** for **Tenplus**, a hydration-focused product brand powered by natural phytonutrients.
 
-Currently, two official plugins are available:
+![Tenplus Landing Page Hero Section](public\screenshots\hero-section.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+[🌐 View Live Demo](https://tenplus-seven.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+- ⚛️ React + Vite
+- 🎨 Tailwind CSS
+- 💻 JavaScript
+
+---
+
+## 🧩 Features
+
+- Fully responsive web design across all devices
+- Video testimonial carousel
+- Responsive header with animated mobile nav
+- Footer with navigations, contact, and newsletter email register form
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/your-username/tenplus-landing-page.git
+```
+
+```
+cd tenplus-landing-page
+```
+
+### 2. Install Dependencies
+
+```
+npm install
+```
+
+### 3. Run the Development Server
+
+```
+npm run dev
+```
