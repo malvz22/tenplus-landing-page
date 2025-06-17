@@ -78,6 +78,7 @@ function App() {
               src="/images/hydration.webp"
               className="w-full max-w-full md:max-w-1/2 h-auto object-cover aspect-square"
               loading="lazy"
+              alt="Hydration Image"
             />
           </div>
           <div className="flex flex-col-reverse md:flex-row-reverse w-full max-w-full items-center md:justify-between gap-6">
@@ -96,6 +97,7 @@ function App() {
             <img
               src="/images/performance.webp"
               className="w-full max-w-full md:max-w-1/2 h-auto object-cover aspect-square"
+              alt="Performance Image"
             />
           </div>
           <div className="flex flex-col-reverse md:flex-row w-full max-w-full items-center md:justify-between gap-6">
@@ -114,6 +116,7 @@ function App() {
               src="/images/recovery.webp"
               className="w-full max-w-full md:max-w-1/2 h-auto object-cover aspect-square"
               loading="lazy"
+              alt="Recovery Image"
             />
           </div>
         </section>
@@ -133,6 +136,7 @@ function App() {
                     src="images/product-mockup/Vertical_Tropical-Citrus.png"
                     className="w-[150px]"
                     loading="lazy"
+                    alt="Tropical Citrus"
                   />
                   <p className="text-2xl">
                     Tropical
@@ -145,6 +149,7 @@ function App() {
                     src="images/product-mockup/Vertical_Pineapple.png"
                     className="w-[150px]"
                     loading="lazy"
+                    alt="Pineapple"
                   />
                   <p className="text-2xl">Pineapple</p>
                 </div>
@@ -153,6 +158,7 @@ function App() {
                     src="images/product-mockup/Vertical_Mango.png"
                     className="w-[150px]"
                     loading="lazy"
+                    alt="Mango"
                   />
                   <p className="text-2xl">Mango</p>
                 </div>
@@ -162,6 +168,7 @@ function App() {
                     src="images/product-mockup/Vertical_Sea-Salt-Lemonade.png"
                     className="w-[150px]"
                     loading="lazy"
+                    alt="Sea Salt Lemonade"
                   />
                   <p className="text-2xl">
                     Sea Salt
@@ -174,6 +181,7 @@ function App() {
                     src="images/product-mockup/Vertical_Orange.png"
                     className="w-[150px]"
                     loading="lazy"
+                    alt="Orange"
                   />
                   <p className="text-2xl">Orange</p>
                 </div>
@@ -182,6 +190,7 @@ function App() {
                     src="images/product-mockup/Vertical_Mixed-Berry.png"
                     className="w-[150px]"
                     loading="lazy"
+                    alt="Mixed Berry"
                   />
                   <p className="text-2xl">
                     Mixed
@@ -277,15 +286,15 @@ function App() {
             </div>
             <div className="grid grid-cols-3 md:grid-cols-6 w-full max-w-full items-start text-center">
               <div className="flex flex-col gap-3 justify-center items-center">
-                <img src="images/gluten-free.svg" />
+                <img src="images/gluten-free.svg" alt="Gluten Free" />
                 <p className="text-xs text-[#737373] font-bold">GLUTEN FREE</p>
               </div>
               <div className="flex flex-col gap-3 justify-center items-center">
-                <img src="images/vegan.svg" />
+                <img src="images/vegan.svg" alt="Vegan" />
                 <p className="text-xs text-[#737373] font-bold">VEGAN</p>
               </div>
               <div className="flex flex-col gap-3 justify-center items-center">
-                <img src="images/sugar-free.svg" />
+                <img src="images/sugar-free.svg" alt="Sugar Free" />
                 <p className="text-xs text-[#737373] font-bold">
                   NO ADDED
                   <br />
@@ -293,17 +302,17 @@ function App() {
                 </p>
               </div>
               <div className="flex flex-col gap-3 justify-center items-center">
-                <img src="images/soy-free.svg" />
+                <img src="images/soy-free.svg" alt="Soy Free" />
                 <p className="text-xs text-[#737373] font-bold">SOY FREE</p>
               </div>
               <div className="flex flex-col gap-3 justify-center items-center">
-                <img src="images/paleo-friendly.svg" />
+                <img src="images/paleo-friendly.svg" alt="Paleo Friendly" />
                 <p className="text-xs text-[#737373] font-bold">
                   PALEO FRIENDLY
                 </p>
               </div>
               <div className="flex flex-col gap-3 justify-center items-center">
-                <img src="images/keto-friendly.svg" />
+                <img src="images/keto-friendly.svg" alt="Keto Friendly" />
                 <p className="text-xs text-[#737373] font-bold">
                   KETO FRIENDLY
                 </p>
@@ -361,6 +370,7 @@ function App() {
                   src="images/volcanic-farm.webp"
                   className="w-full max-w-full md:max-w-[50%] h-auto aspect-[4/3] object-cover"
                   loading="lazy"
+                  alt="Volcanic Farm"
                 />
                 <div className="flex flex-col py-4 md:px-10 md:py-6 justify-center">
                   <h4 className=" mb-3">Naturally Explosive.</h4>
@@ -379,6 +389,7 @@ function App() {
                     src="images/jungle.webp"
                     className="w-full max-w-full md:max-w-[50%] h-auto lg:h-[100%] aspect-[4/3] lg:aspect[3/4] object-cover"
                     loading="lazy"
+                    alt="Jungle"
                   />
                   <div className="flex flex-col py-4 md:px-10 md:py-6 lg:px-5 lg:py-6 justify-center">
                     <h4 className="mb-3">It’s a Jungle Out There.</h4>
@@ -396,6 +407,7 @@ function App() {
                     src="images/ancient.webp"
                     className="w-full max-w-full md:max-w-[50%] h-auto lg:h-[100%] aspect-[4/3] lg:aspect[3/4] object-cover"
                     loading="lazy"
+                    alt="Ancient"
                   />
                   <div className="flex flex-col py-4 md:px-10 md:py-6 lg:px-5 lg:py-6 justify-center">
                     <h4 className="mb-3">Tested by Time.</h4>
