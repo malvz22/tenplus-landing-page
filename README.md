@@ -2,7 +2,7 @@
 
 A modern and responsive landing page built with **React**, **JavaScript**, and **Tailwind CSS** for **Tenplus**, a hydration-focused product brand powered by natural phytonutrients.
 
-![Tenplus Landing Page Hero Section](public\screenshots\hero-section.png)
+![Tenplus Landing Page Hero Section](public/screenshots/hero-section.png)
 
 ## 🚀 Live Demo
 
