@@ -122,7 +122,7 @@ function App() {
         </section>
         <section
           id="product-section"
-          className="bg-[url('images/palm-leaf.webp')] bg-center bg-cover bg-no-repeat w-full max-w-full text-white scroll-mt-12"
+          className="bg-[url('/images/palm-leaf.webp')] bg-center bg-cover bg-no-repeat w-full max-w-full text-white scroll-mt-12"
         >
           <div className="w-full max-w-full h-auto bg-black/80">
             <div className="container-custom flex flex-col text-center">
@@ -320,7 +320,7 @@ function App() {
             </div>
           </div>
 
-          <div className="w-full max-w-full bg-[url('images/bali-farm.webp')] bg-center bg-cover bg-no-repeat text-white text-center items-center justify-center">
+          <div className="w-full max-w-full bg-[url('/images/bali-farm.webp')] bg-center bg-cover bg-no-repeat text-white text-center items-center justify-center">
             <div className="w-full max-w-full h-full bg-black/70 flex">
               <div className="px-3 w-full max-w-[740px] flex flex-col gap-3 mx-auto py-20">
                 <h4>Sustainably Sourced from 200+ Indonesian Farmers</h4>
