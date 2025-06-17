@@ -19,11 +19,6 @@ function App() {
               <h4 className="text-white">
                 Power up. Recover strong. Stay Hydrated with Tenplus.
               </h4>
-              {/* <div>
-                <button className="px-6 py-2 bg-[#E1E43D] rounded-full w-auto font-medium text-lg">
-                  Buy Now
-                </button>
-              </div> */}
               <Button>Buy Now</Button>
             </div>
           </div>
@@ -49,6 +44,7 @@ function App() {
             <img
               src="/images/product-mockup/Box+3Sachets_Variety-Pack.png"
               className="w-full max-w-full md:max-w-1/2 object-fill"
+              loading="lazy"
             />
           </div>
           <div className="flex flex-col-reverse md:flex-row w-full max-w-full items-center md:justify-between gap-6">
@@ -84,6 +80,7 @@ function App() {
             <img
               src="/images/hydration.jpg"
               className="w-full max-w-full md:max-w-1/2 h-auto object-cover aspect-square"
+              loading="lazy"
             />
           </div>
           <div className="flex flex-col-reverse md:flex-row-reverse w-full max-w-full items-center md:justify-between gap-6">
@@ -119,6 +116,7 @@ function App() {
             <img
               src="/images/recovery.jpg"
               className="w-full max-w-full md:max-w-1/2 h-auto object-cover aspect-square"
+              loading="lazy"
             />
           </div>
         </section>
@@ -137,6 +135,7 @@ function App() {
                   <img
                     src="images/product-mockup/Vertical_Tropical-Citrus.png"
                     className="w-[150px]"
+                    loading="lazy"
                   />
                   <p className="text-2xl">
                     Tropical
@@ -148,6 +147,7 @@ function App() {
                   <img
                     src="images/product-mockup/Vertical_Pineapple.png"
                     className="w-[150px]"
+                    loading="lazy"
                   />
                   <p className="text-2xl">Pineapple</p>
                 </div>
@@ -155,6 +155,7 @@ function App() {
                   <img
                     src="images/product-mockup/Vertical_Mango.png"
                     className="w-[150px]"
+                    loading="lazy"
                   />
                   <p className="text-2xl">Mango</p>
                 </div>
@@ -163,6 +164,7 @@ function App() {
                   <img
                     src="images/product-mockup/Vertical_Sea-Salt-Lemonade.png"
                     className="w-[150px]"
+                    loading="lazy"
                   />
                   <p className="text-2xl">
                     Sea Salt
@@ -174,6 +176,7 @@ function App() {
                   <img
                     src="images/product-mockup/Vertical_Orange.png"
                     className="w-[150px]"
+                    loading="lazy"
                   />
                   <p className="text-2xl">Orange</p>
                 </div>
@@ -181,6 +184,7 @@ function App() {
                   <img
                     src="images/product-mockup/Vertical_Mixed-Berry.png"
                     className="w-[150px]"
+                    loading="lazy"
                   />
                   <p className="text-2xl">
                     Mixed
@@ -359,6 +363,7 @@ function App() {
                 <img
                   src="images/volcanic-farm.jpg"
                   className="w-full max-w-full md:max-w-[50%] h-auto aspect-[4/3] object-cover"
+                  loading="lazy"
                 />
                 <div className="flex flex-col py-4 md:px-10 md:py-6 justify-center">
                   <h4 className=" mb-3">Naturally Explosive.</h4>
@@ -376,6 +381,7 @@ function App() {
                   <img
                     src="images/jungle.jpg"
                     className="w-full max-w-full md:max-w-[50%] h-auto lg:h-[100%] aspect-[4/3] lg:aspect[3/4] object-cover"
+                    loading="lazy"
                   />
                   <div className="flex flex-col py-4 md:px-10 md:py-6 lg:px-5 lg:py-6 justify-center">
                     <h4 className="mb-3">It’s a Jungle Out There.</h4>
@@ -392,6 +398,7 @@ function App() {
                   <img
                     src="images/ancient.jpg"
                     className="w-full max-w-full md:max-w-[50%] h-auto lg:h-[100%] aspect-[4/3] lg:aspect[3/4] object-cover"
+                    loading="lazy"
                   />
                   <div className="flex flex-col py-4 md:px-10 md:py-6 lg:px-5 lg:py-6 justify-center">
                     <h4 className="mb-3">Tested by Time.</h4>

@@ -8,8 +8,16 @@ const Footer = () => {
     <footer className="bg-neutral-900 text-white">
       <div className="container-custom mx-auto gap-8">
         <div>
-          <img src="icons/Tenplus Icon-17.png" className="w-[100px]" />
-          <img src="icons/Tenplus Wordmark.png" className="w-[120px]" />
+          <img
+            src="icons/Tenplus Icon-17.png"
+            className="w-[100px]"
+            loading="lazy"
+          />
+          <img
+            src="icons/Tenplus Wordmark.png"
+            className="w-[120px]"
+            loading="lazy"
+          />
         </div>
         <div className="flex flex-col md:flex-row gap-6 w-full max-w-full justify-between items-start">
           <div className="flex flex-col md:flex-row gap-10">
