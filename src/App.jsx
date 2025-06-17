@@ -10,13 +10,19 @@ function App() {
     <>
       <Header />
       <main className="flex flex-col w-full max-w-full">
-        <section className="h-screen w-full max-w-full bg-[url(/images/bali-beach.jpg)] bg-center bg-cover bg-no-repeat">
+        <section className="h-screen w-full max-w-full bg-[url(/images/bali-beach.webp)] bg-center bg-cover bg-no-repeat">
           <div className="w-full max-w-full h-screen bg-gray-500/30 flex justify-center items-center">
             <div className="flex flex-col gap-6 text-center w-full max-w-full px-5 ">
-              <h1 className="text-white text-shadow-2xs">
+              <h1
+                className="text-white text-shadow-2xs"
+                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+              >
                 Move Beyond Hydration
               </h1>
-              <h4 className="text-white">
+              <h4
+                className="text-white"
+                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+              >
                 Power up. Recover strong. Stay Hydrated with Tenplus.
               </h4>
               <Button>Buy Now</Button>
@@ -67,18 +73,9 @@ function App() {
                 Tenplus gives you 480 mg of sodium per 600 ml serving, which
                 equals 800 mg per litre – right in the ideal range.
               </p>
-              <p className="text-lg text-black">
-                Mix one sachet of Tenplus with 600 ml of water for optimal
-                hydration and performance.
-              </p>
-              <p className="text-xs text-black">
-                1. American College of Sports Medicine (ACSM) 2. National
-                Athletic Trainers’ Association (NATA) 3. International Society
-                of Sports Nutrition (ISSN)
-              </p>
             </div>
             <img
-              src="/images/hydration.jpg"
+              src="/images/hydration.webp"
               className="w-full max-w-full md:max-w-1/2 h-auto object-cover aspect-square"
               loading="lazy"
             />
@@ -97,7 +94,7 @@ function App() {
               </p>
             </div>
             <img
-              src="/images/performance.jpg"
+              src="/images/performance.webp"
               className="w-full max-w-full md:max-w-1/2 h-auto object-cover aspect-square"
             />
           </div>
@@ -114,7 +111,7 @@ function App() {
               </p>
             </div>
             <img
-              src="/images/recovery.jpg"
+              src="/images/recovery.webp"
               className="w-full max-w-full md:max-w-1/2 h-auto object-cover aspect-square"
               loading="lazy"
             />
@@ -122,7 +119,7 @@ function App() {
         </section>
         <section
           id="product-section"
-          className="bg-[url(images/palm-leaf.jpg)] bg-center bg-cover bg-no-repeat w-full max-w-full text-white scroll-mt-12"
+          className="bg-[url('images/palm-leaf.webp')] bg-center bg-cover bg-no-repeat w-full max-w-full text-white scroll-mt-12"
         >
           <div className="w-full max-w-full h-auto bg-black/80">
             <div className="container-custom flex flex-col text-center">
@@ -314,7 +311,7 @@ function App() {
             </div>
           </div>
 
-          <div className="w-full max-w-full bg-[url(images/bali-farm.jpg)] bg-center bg-cover bg-no-repeat text-white text-center items-center justify-center">
+          <div className="w-full max-w-full bg-[url('images/bali-farm.webp')] bg-center bg-cover bg-no-repeat text-white text-center items-center justify-center">
             <div className="w-full max-w-full h-full bg-black/70 flex">
               <div className="px-3 w-full max-w-[740px] flex flex-col gap-3 mx-auto py-20">
                 <h4>Sustainably Sourced from 200+ Indonesian Farmers</h4>
@@ -361,7 +358,7 @@ function App() {
             <div className="flex flex-col">
               <div className="flex flex-col md:flex-row p-2">
                 <img
-                  src="images/volcanic-farm.jpg"
+                  src="images/volcanic-farm.webp"
                   className="w-full max-w-full md:max-w-[50%] h-auto aspect-[4/3] object-cover"
                   loading="lazy"
                 />
@@ -379,7 +376,7 @@ function App() {
               <div className="flex flex-col lg:flex-row">
                 <div className="flex flex-col md:flex-row p-2 items-center">
                   <img
-                    src="images/jungle.jpg"
+                    src="images/jungle.webp"
                     className="w-full max-w-full md:max-w-[50%] h-auto lg:h-[100%] aspect-[4/3] lg:aspect[3/4] object-cover"
                     loading="lazy"
                   />
@@ -396,7 +393,7 @@ function App() {
                 </div>
                 <div className="flex flex-col md:flex-row p-2 items-center">
                   <img
-                    src="images/ancient.jpg"
+                    src="images/ancient.webp"
                     className="w-full max-w-full md:max-w-[50%] h-auto lg:h-[100%] aspect-[4/3] lg:aspect[3/4] object-cover"
                     loading="lazy"
                   />
